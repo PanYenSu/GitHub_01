@@ -1,0 +1,141 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,*:before,*:after {
+    box-sizing: border-box;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header h1{
+	margin-bottom: 24px;
+    width: 274px;
+    height: 190px;  
+	font-size: 80px;
+	line-height: 95px;
+	
+}
+/* .profile {
+    margin-bottom: 48px;
+} */
+.profile img {
+	margin-bottom: 48px;
+	margin-top: 48px;
+	width: 324px;
+}
+.profile h3,.education h3,.work h3 {
+	font-size: 32px;
+	/* height: 40px; */
+	/* padding-bottom: 8px; */
+	line-height: 45px;
+	border-bottom: 1px solid #000000;
+	
+}
+.profile span,.education span,.work span {
+	font-size: 24px;
+	color: #A00404;
+	margin-left: 16px;
+}
+.education,.work {
+	margin-top: 72px;
+}
+
+.profileContent,.educationContent,.workContent {
+	padding-top: 16px;
+}
+.profileContent p,.educationContent p {
+	font-size: 24px;
+	line-height: 36px;
+	margin-bottom: 24px;
+}
+.skill {
+	margin-top: 72px;
+	padding-bottom: 52px;
+	background-color: #415165;
+	text-align: center;
+	color: #fff;
+}
+.skill p {
+	padding-top: 24px;
+	font-size: 32px;
+	/* color: #fff; */
+	line-height: 45px;
+}
+.skill span {
+	font-size: 24px;
+	color: #fff;
+}
+.skill ul {
+	margin-top: 40px;
+	margin-left: 492px;
+	padding-left: 24px;
+	border-left: 1px solid #96A9C4;
+	/* font-size: 24px; */
+	/* line-height: 36px; */
+}
+.skill li {
+	/* border-right: 1px solid #96A9C4; */
+	text-align: left;
+	height: 29px;
+	font-size: 24px;
+	line-height: 36px;
+	margin-bottom: 20px;
+}
+.workContent p {
+	font-size: 24px;
+	height: 33px;
+}
+.workContent img {
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+
