@@ -129,13 +129,20 @@ table {
 	line-height: 36px;
 	margin-bottom: 20px;
 }
-.workContent p {
+.workContent li {
 	font-size: 24px;
 	height: 33px;
 }
 .workContent img {
 	margin-bottom: 8px;
 	margin-top: 8px;
+}
+.workContent p {
+	width: 624px;
+	height: 150px;
+	font-size: 20px;
+	height: 33px;
+	font-weight: lighter;
 }
 
 
