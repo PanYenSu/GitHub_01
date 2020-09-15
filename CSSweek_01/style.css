@@ -60,8 +60,7 @@ table {
     width: 274px;
     height: 190px;  
 	font-size: 80px;
-	line-height: 95px;
-	
+	line-height: 95px;	
 }
 /* .profile {
     margin-bottom: 48px;
@@ -71,7 +70,10 @@ table {
 	margin-top: 48px;
 	width: 324px;
 }
-.profile h3,.education h3,.work h3 {
+.samefont h3{
+	/* font-family: medium; */
+	/* font-weight: medium; */
+	font-weight: bold;
 	font-size: 32px;
 	/* height: 40px; */
 	/* padding-bottom: 8px; */
@@ -79,7 +81,7 @@ table {
 	border-bottom: 1px solid #000000;
 	
 }
-.profile span,.education span,.work span {
+.samefont span {
 	font-size: 24px;
 	color: #A00404;
 	margin-left: 16px;
@@ -88,7 +90,7 @@ table {
 	margin-top: 72px;
 }
 
-.profileContent,.educationContent,.workContent {
+.samecontent {
 	padding-top: 16px;
 }
 .profileContent p,.educationContent p {
@@ -103,15 +105,16 @@ table {
 	text-align: center;
 	color: #fff;
 }
-.skill p {
+.skill p,.footer h3 {
 	padding-top: 24px;
 	font-size: 32px;
 	/* color: #fff; */
 	line-height: 45px;
 }
-.skill span {
+.skill span,.footer span {
 	font-size: 24px;
 	color: #fff;
+	margin-left: 16px;
 }
 .skill ul {
 	margin-top: 40px;
@@ -130,6 +133,10 @@ table {
 	margin-bottom: 20px;
 }
 .workContent li {
+	margin-bottom: 32px;
+}
+.workContent h5,.contact h5 {
+	font-weight: bold;
 	font-size: 24px;
 	height: 33px;
 }
@@ -139,10 +146,48 @@ table {
 }
 .workContent p {
 	width: 624px;
-	height: 150px;
+	/* height: 150px; */
+	line-height: 30px;
 	font-size: 20px;
-	height: 33px;
 	font-weight: lighter;
+}
+.workContent ul {
+	/* margin-top: 40px; */
+	margin-left: 24px;
+	padding-left: 24px;
+	border-left: 1px solid #96A9C4;
+	/* font-size: 24px; */
+	/* line-height: 36px; */
+}
+
+.footer {
+	width: 100%;
+	margin-top: 76px;
+	background-color: #415165;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 48px;
+}
+.footer h3{
+	margin: 0 auto;
+	width: 1200px;
+	margin-bottom: 32px;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #fff;
+
+}
+.icon {
+	margin-top: 20px;
+}
+.contact img {
+	width: 48px;
+	margin-left: 24px;
+}
+.contact p {	
+	margin-bottom: 16px;
+	font-weight: lighter;
+	font-size: 24px;
+	height: 33px;
 }
 
 
