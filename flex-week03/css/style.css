@@ -47,65 +47,93 @@ table {
 	border-spacing: 0;
 }
 *,*:before,*:after {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
+
 
 .wrap {
 	margin: 0 auto;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	width: 1024px;
+	padding-left: 42px;
+	padding-right: 42px;
+	border: 1px rgb(187, 187, 166) solid;
 }
 .header {
-	width: 100%;
-	height: 90px;
+	/* margin-left: 42px;
+	margin-right: 42px; */
+	height: 100px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding-right: 50px;
-	padding-left: 50px;
-	background: #e7eeea;
 }
-.header ul, .footer ul{
+.header ul{
 	display: flex;
 }
-.header li {
-	font-size: 18px;
-	padding-left: 18px;
-	color: #37523d;
+.header li a {
+	font-size: 16px;
+	padding-left: 60px;
+	color: #3F5D45;
 	font-weight: bolder;
+}
+.header a {
+	padding-left: 79px;
+}
+.banner {
+	margin-bottom: 60px;
 }
 .content {
-	width: 605px;
 	display: flex;
-	flex-direction: column;
-	margin-top: 80px;
-	margin-bottom: 80px;
 }
-.content h3 {
-	font-size: 20px;
-	font-weight: bolder;
+.sideNav {
+	width: 300px;
+	margin-right: 20px;
+	text-align: center;	
 }
-.content p {
-	padding-top: 20px;
-	padding-bottom: 20px;
-	font-size: 18px;
-	color: #000;
-}
-.footer {
-	width: 100%;
-	height: 58px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	/* padding-right: 50px;
-	padding-left: 50px; */
-	background:  #37523d;
-}
-.footer li {
-	font-size: 16px;
-	padding-left: 18px;
-	color: #fff;
-	/* font-weight: bolder; */
-}
+.sideNav h3,.sideNav li a,.card a {
+	height: 65px;
+	padding-top: 16px;
+	font-size: 24px;
 
+}
+.sideNav h3 {
+	margin: 0;
+	color: #EAF0ED;	
+	background: #3F5D45;
+}
+.sideNav li a, .card a {
+	/* margin: 0; */
+	display: block;
+	border: 1px #EAF0ED solid;
+	color: #3F5D45;
+	font-weight: bolder;
+	text-decoration: none;
+}
+.sideNav li a:hover {
+	background: #EAF0ED;
+}
+.cardimg {
+	width: 300px;
+	height: 315px;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-image: url("/flex-week03/img/p-1.png");
+	background-size:cover;
+}
+.cardimg p {
+	padding: 10px;
+	width: 36px;
+	height: 107px;
+	font-size: 16px;
+	color: #EAF0ED;
+	background: #3F5D45;
+	line-height: 20px;
+}
+.cardimg a img{
+	margin-top: 19px;
+	width: 20px;
+}
+.cardimg img {
+	/* width: 50px; */
+}
