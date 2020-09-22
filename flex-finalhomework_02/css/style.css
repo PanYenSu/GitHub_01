@@ -58,9 +58,24 @@ table {
 	padding-right: 42px;
 	border: 1px rgb(187, 187, 166) solid;
 }
+
+.header h1 a {
+	background-image: url("/flex-finalhomework_02/img/logo-all-dark.svg");
+	display: block;
+
+	/* 段落首字縮排 */
+	text-indent: 100%;
+	/* 此為超出 div 父元素時，自動隱藏該元素 */
+	overflow: hidden;
+	/* 強迫文字不換行 */
+	white-space: nowrap;
+	background-size:coverxcvj;
+}
+.header h1 {
+	font-weight: normal;
+}
+
 .header {
-	/* margin-left: 42px;
-	margin-right: 42px; */
 	height: 100px;
 	display: flex;
 	justify-content: space-between;
@@ -83,13 +98,14 @@ table {
 }
 .content {
 	display: flex;
+	justify-content: space-between;
 }
 .sideNav {
 	width: 300px;
-	margin-right: 20px;
+	/* margin-right: 20px; */
 	text-align: center;	
 }
-.sideNav h3,.sideNav li a,.card a {
+.sideNav h3,.sideNav li a{
 	height: 65px;
 	padding-top: 16px;
 	font-size: 24px;
@@ -100,7 +116,7 @@ table {
 	color: #EAF0ED;	
 	background: #3F5D45;
 }
-.sideNav li a, .card a {
+.sideNav li a{
 	/* margin: 0; */
 	display: block;
 	border: 1px #EAF0ED solid;
@@ -111,17 +127,28 @@ table {
 .sideNav li a:hover {
 	background: #EAF0ED;
 }
-.cardimg {
+.card {
+	display: flex;
+	margin-left: 20px;
 	width: 300px;
+	/*   wrap => 超過預設寬度斷行 */
+	flex-wrap: wrap; 
+}
+.card-img {	
 	height: 315px;
 	display: flex;
 	justify-content: space-between;
 	padding-left: 20px;
 	padding-right: 20px;
-	background-image: url("/flex-week03/img/p-1.png");
 	background-size:cover;
 }
-.cardimg p {
+.p-1 {
+	background-image: url("/flex-finalhomework_02/img/p-1.png");
+}
+.p-2 {
+	background-image: url("/flex-finalhomework_02/img/p-2.png");
+}
+.card-img h6 {
 	padding: 10px;
 	width: 36px;
 	height: 107px;
@@ -130,10 +157,41 @@ table {
 	background: #3F5D45;
 	line-height: 20px;
 }
-.cardimg a img{
+.card-img a {
 	margin-top: 19px;
 	width: 20px;
+	height: 20px;
 }
-.cardimg img {
-	/* width: 50px; */
+
+.cardbody {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;	
+}
+.name {
+	width: 173px;
+	font-weight: lighter;
+}
+.price {
+	width: 127px;
+}
+.cb {
+	margin-bottom: 0;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	border: #EAF0ED solid  1px;
+	color: #3F5D45;
+}
+.addcart {
+	padding: 10px;
+	text-align: center;
+	color: #3F5D45;
+	background: #EAF0ED;
+	line-height: 20px;
+	text-decoration: none;
+}
+.addcart h4 {
+	margin: 0;
+	font-size: 24px;
 }
