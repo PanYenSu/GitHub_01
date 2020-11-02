@@ -1,0 +1,198 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* -----reset css--------*/
+
+#wrap {
+	margin: 0 auto;
+	width: 100%;
+}
+.banner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 958px;
+	background-size: cover;
+	background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week2/banner.png?raw=true)  
+	100% 100% no-repeat;
+	border: 1px solid #707070;
+}
+.header {
+	width: 304px;
+}
+.text-primary {
+	color: #fff;
+}
+.f-italic {
+	font-style: italic;
+}
+.fs-2 {
+	font-size: 24px;
+}
+.fs-1 {
+	font-style: 20px;
+}
+.line-h-0 {
+	line-height: 28px;
+}
+.line-h-1 {
+	line-height: 30px;
+}
+
+.line-h-4 {
+	line-height: 42px;
+}
+.line-h-3 {
+	line-height: 36px;
+}
+.fs-h1 {
+	font-size: 80px;
+	line-height: 94px;
+}
+.fs-h3 {
+	font-size: 64px;
+	line-height: 75px;
+}
+.mb-h1, .mb-p-3{
+	margin-bottom: 32px;
+}
+
+.mt-p-1 {
+	margin-top: 16px;
+}
+.mt-li {
+	margin-top: 32px;
+}
+.mb-d4 {
+	margin-bottom: 48px;
+}
+.mbt-img-1 {
+	margin-top: 56px;
+	margin-bottom: 16px;
+}
+.mr-img-2 {
+	margin-right: 24px;
+}
+.w-pl {
+	width: 412px;	
+}
+.mb-full {
+	margin-bottom: 64px;
+}
+.jc-content {
+	display: flex;	
+	justify-content: center;
+}
+.about {
+	text-align: center;
+	padding-top: 64px;
+	padding-bottom: 56px;
+	/* margin-bottom: 56px; */
+}
+.info {
+	text-align: center;
+	margin-bottom: 24px;
+}
+.link {
+	display: flex;	
+	justify-content: space-around;
+	
+}
+.m-bt {	
+	margin-bottom: 24px;
+	margin-top: 40px;
+}
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+.about-list {
+	display: flex;
+	flex-direction: column;
+	align-items: center; 	
+}
+.list-item {	
+	border-top: 1px solid #000000;
+	width: 384px;
+}
+.ellipse {
+	width: 22px;
+	height: 22px;
+	background: #891818;
+	border-radius: 50%;
+	margin-right: 16px;
+}
+.brand-img1 {
+	margin-top: 68px;
+	margin-bottom: 40px;
+}
+.brand {
+	background: #000;
+	text-align: center;
+	padding-top: 64px;
+	padding-bottom: 160px;
+}
+.work {
+	text-align: center;
+	padding-top: 64px;
+	padding-bottom: 160px;
+}
+.work-ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.work-li {
+	text-align: center;
+}
+.footer {
+	background: #000;
+	text-align: center;
+	padding-top: 64px;
+	padding-bottom: 80px;
+}
