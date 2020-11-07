@@ -48,13 +48,12 @@
 		margin-bottom: 20px;
 	}
 	.service-list {
-
 		padding-right: 69px;
 		padding-left: 69px;
 		/* align-content: flex-start; */
 	}
 	.service-item {
-		width: 100%;
+		width: 237px;
 		padding-right: 69px;
 		padding-left: 69px;
 
@@ -83,10 +82,10 @@
 	}
 	.co-design {
 		height: 696px;
-		padding-top: 0;
+		padding-top: 32;
 		padding-bottom: 32px;
 	}
-	.design-title {
+	.design-title, .comment-title {
 		font-size: 20px;
 		line-height: 28px;
 	}
@@ -101,9 +100,30 @@
 		margin: 0;
 		
 	}
-	.design-item {
-		
+	.design-item {	
 		margin-bottom: 16px;
+	}
+	.comment {
+		padding-top: 32px;
+		padding-bottom: 16px;
+	}
+	.comment-card {
+		flex-direction: column;	
+		align-items: center;	
+	}
+	.comment-img {
+		width: 100%;
+	}
+	.comment-item {
+		width: 345px;
+		margin-bottom: 16px;
+	}
+	.comment-content {
+		padding: 16px 16px 0px 16px;
+	}
+	.comment-content .comment-desc {
+		padding-top: 0;
+	    padding-bottom: 16px;
 	}
 
 	

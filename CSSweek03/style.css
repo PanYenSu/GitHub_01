@@ -105,7 +105,7 @@ img {
 .c-light {
 	color: #fff;
 }
-.c-primary, .service-h4, .service-title, .classic-title {
+.c-primary, .service-h4, .service-title, .classic-title, .comment-title {
 	color: #650300;
 }
 .classic-brand, .design-name {
@@ -119,7 +119,7 @@ img {
 .service {
 	background: #AA06010D;
 }
-.service-title,.classic-title, .design-title {
+.service-title,.classic-title, .design-title, .comment-title {
 	font-size: 48px;
 	line-height: 67px;
 	margin-bottom: 60px;
@@ -238,6 +238,48 @@ img {
 	line-height: 95px;
 	font-weight: bolder;
 }
+.comment {
+	text-align: center;
+	padding: 64px 0px;
+}
+.comment-card {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.comment-item {
+	width: 255px;
+	margin: 0 15px;
+	/* padding-bottom: 15px; */
+	/* border: 1px solid #DEE2E6; */
+}
+.comment-img {
+	display: block;
+}
+.comment-content {
+	text-align: left;
+	padding: 14px 16px 15px 16px;
+	border: 1px solid #DEE2E6;
+}
+.comment-desc {
+	color: #212529;
+}
+.comment-fs-p1 {
+	font-size: 14px;
+	line-height: 19px;
+}
+.comment-fs-p2 {
+	font-size: 16px;
+	line-height: 24px;
+}
+.comment-desc:nth-child(2) {
+	padding-top: 7px;
+	padding-bottom: 10px;
+}
+.comment-desc:nth-last-child(1){
+	color: #707070;
+}
+
 
 
 

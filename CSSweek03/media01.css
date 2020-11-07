@@ -32,7 +32,7 @@
 		padding-right: 85px;
 		padding-left: 85px;
 	}
-	.service-title, .classic-title, .design-title  {
+	.service-title, .classic-title, .design-title, .comment-title  {
 		font-size: 32px;
 		line-height: 45px;
 		margin-bottom: 32px;
@@ -103,6 +103,21 @@
 	.design-img1, .design-img2 {
 		width: 330px;
 		height: 280px;
+	}
+	.comment {
+		/* padding: 40px 0; */
+		padding-top: 40px;
+		padding-bottom: 12px;
+	}
+	.comment-card {
+		flex-wrap: wrap;
+	}
+	.comment-item {
+		width: 330px;
+		margin-bottom: 28px;
+	}
+	.comment-content {
+		padding: 16px;
 	}
 
 
