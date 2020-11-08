@@ -125,7 +125,9 @@ img {
 	margin-bottom: 60px;
 	font-weight: bold;
 }
-
+.service-title {
+	text-align: center;
+}
 .service img {
 	width: 100px;
 	height: 100px;
