@@ -24,7 +24,7 @@
 		font-size: 48px;
 		line-height: 67px;
 	}
-	.service, .classic {
+	.service, .classic, .contact {
 		padding-top: 40px;
 		padding-bottom: 40px;
 	}
@@ -32,10 +32,13 @@
 		padding-right: 85px;
 		padding-left: 85px;
 	}
-	.service-title, .classic-title, .design-title, .comment-title  {
+	.service-title, .classic-title, .design-title, .comment-title, .contact-title  {
 		font-size: 32px;
 		line-height: 45px;
 		margin-bottom: 32px;
+	}
+	.contact .contact-title {
+		margin-bottom: 16px;
 	}
 	.service img {
 		width: 80px;
@@ -112,12 +115,50 @@
 	.comment-card {
 		flex-wrap: wrap;
 	}
+
 	.comment-item {
 		width: 330px;
 		margin-bottom: 28px;
 	}
 	.comment-content {
 		padding: 16px;
+	}
+	.contact-desc {
+		font-size: 16px;
+		line-height: 24px;
+		width: 450px;
+		margin-bottom: 12px;
+	}
+	.form-control {
+		height: 36px;
+	}
+	.form-group {
+		width: 450px;
+		font-size: 14px;
+		line-height: 20px;
+		margin-bottom: 8px;
+	}
+	::placeholder { /* CSS 3 標準 */
+		font-size: 14px;
+		padding-left: 12px;
+	  }
+	.form-control[type="textarea"] {
+		height: 100px;  
+	} 
+	.form-check {
+		align-items: start;
+	}
+	.form-check-input[type="checkbox"] {
+		width: 17.63px;
+		height: 17.63px;  
+	}
+	.form-btn {
+		margin-top: 12px;
+	}
+	.btn {
+		width: 210px;
+		height: 36px;
+		font-size: 14px;
 	}
 
 
