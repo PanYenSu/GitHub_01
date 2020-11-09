@@ -108,7 +108,6 @@
 		height: 280px;
 	}
 	.comment {
-		/* padding: 40px 0; */
 		padding-top: 40px;
 		padding-bottom: 12px;
 	}
@@ -159,6 +158,41 @@
 		width: 210px;
 		height: 36px;
 		font-size: 14px;
+	}
+	.footer {
+		padding: 40px 0;
+	}
+	.footer-info {
+		max-width: 690px;
+	}
+	.footer-item {
+		padding-right: 40px;
+	}
+	.navbar {
+		padding-bottom: 24px;
+	}
+	.friendlink-link {
+		padding-left: 24px;	
+	}
+	.friendlink-link img{
+		width: 24px;
+	}
+	.connect-item p{
+		padding-left: 12px;
+		font-size: 20px;
+		line-height: 26px;
+	}
+	.connect-item img{
+		width: 32px;
+	}
+	.footer-connect {
+		padding-bottom: 24px;
+	}
+	.footer-copyright img {
+		display: none;
+	}
+	.footer-msg-link:nth-last-child(1){
+		padding-left: 24px;	
 	}
 
 
