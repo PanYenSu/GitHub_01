@@ -21,7 +21,7 @@ git push -u origin master // 僅限第一次輸入，往後只需要輸入 git p
 ## 安裝 Gulp
 
 * 安裝 Node.js，輸入 node -v 看是否有顯示版本號
-* npm i gulp@4 -g
+* npm i gulp@4 -g  （sudo npm i gulp@4 -g）
 * gulp -v 看是否有顯示版本號
 * 下載此[資料夾](https://github.com/hexschool/web-layout-training-gulp) 並cd 移動到該資料夾
 * npm install 安裝插件
