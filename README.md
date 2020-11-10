@@ -9,3 +9,11 @@ https://panyensu.github.io/TaskGitHub_01/
 [Week02](https://panyensu.github.io/TaskGitHub_01/CSSweek02_個人網站/week02.html)
 
 [Week03](https://panyensu.github.io/TaskGitHub_01/CSSweek03/index.html)
+
+## 部署 gh-pagse 流程
+```
+git add .
+git commit -m 'first commit'
+git remote add origin [GitHub Repositories Url]
+git push -u origin master // 僅限第一次輸入，往後只需要輸入 git push
+```
